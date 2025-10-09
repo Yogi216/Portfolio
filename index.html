@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main/styles.css" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-------------------------------- Home section -------------------------------->
+    <header>
+      <nav>
+        <h3 class="logo">Portfolio</h3>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="#ab">About</a></li>
+          <li><a href="#myskill">Skills</a></li>
+          <li><a href="#pro">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="info">
+        <h3>Hi, I'm <span id="span">Yogesh</span>.</h3>
+
+        <h1>
+          <span id="span">F</span>rontend <span id="span">D</span>eveloper
+        </h1>
+
+        <h3 class="bio">
+          I build user-friendly websites using HTML, CSS, and JavaScript.
+          <br />My goal is to make websites look good and feel smooth to use.
+        </h3>
+
+        <button class="btn-1">
+          <a href="#ab"
+            ><span>Know More <i class="fa-solid fa-arrow-right"></i></span
+          ></a>
+        </button>
+      </div>
+
+      <div class="image">
+        <img src="./main/Images/home.svg" />
+      </div>
+
+      <div class="container"></div>
+    </header>
+
+    <!-------------------------------- About section -------------------------------->
+    <section class="about" id="ab">
+      <div class="about-img">
+        <img src="./main/Images/about.svg" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About<span id="span"> Me</span></h2>
+        <p>
+          I'm a frontend developer with a passion for building responsive and
+          easy-to-use websites. I work with HTML, CSS, JavaScript, and
+          frameworks like React to create modern web interfaces. <br /><br />I
+          enjoy turning ideas into real products with clean code and thoughtful
+          design. Whether it's a landing page or a full web app, I focus on
+          making the user experience smooth and enjoyable.
+        </p>
+      </div>
+    </section>
+
+    <!-------------------------------- Skills section -------------------------------->
+    <h1 class="head-skill"><span>My</span> Skills</h1>
+    <section class="skills" id="myskill">
+      <div class="container1">
+        <h3 class="head3-skill">Technical Skills</h3>
+        <div class="technical-bars">
+          <div class="bar">
+            <img src="./main/Images/html-5.svg" />
+            <div class="info">
+              <span>HTMl</span>
+            </div>
+            <div class="progressline html">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <img src="./main/Images/css-3.svg" />
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progressline css">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <img src="./main/Images/javascript.svg" />
+            <div class="info">
+              <span>JS</span>
+            </div>
+            <div class="progressline js">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <img src="./main/Images/react.svg" />
+            <div class="info">
+              <span>React</span>
+            </div>
+            <div class="progressline react">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container2">
+        <h3 class="head3-pro">Professional Skills</h3>
+        <div class="radial-bars">
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="text">Creativity</div>
+          </div>
+
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">65%</div>
+            <div class="text">Communication</div>
+          </div>
+
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">75%</div>
+            <div class="text">Problem Solving</div>
+          </div>
+
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">85%</div>
+            <div class="text">Teamwork</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------- Projects section -------------------------------->
+    <div id="pro">
+      <section class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">Project 1</div>
+          <div class="project-card">Project 2</div>
+          <div class="project-card">Project 3</div>
+          <div class="project-card">Project 4</div>
+          <div class="project-card">Project 5</div>
+          <div class="project-card">Project 6</div>
+          <div class="project-card">Project 7</div>
+          <div class="project-card">Project 8</div>
+        </div>
+      </section>
+    </div>
+
+    <!-------------------------------- Contact section -------------------------------->
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+        <h2>📬 Get in Touch</h2>
+        <p>
+          I'm excited to connect with you! Reach out for projects, questions, or
+          a friendly hello.
+        </p>
+
+        <div class="contact-info">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:ss.yogesh04@gmail.com">ss.yogesh04@gmail.com</a>
+          </p>
+          <p>
+            <strong>LinkedIn:</strong>
+            <a href="https://linkedin.com/in/yogesh-s-a20099350" target="_blank"
+              >linkedin.com/in/yogesh-s-a20</a
+            >
+          </p>
+          <p>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/yourusername" target="_blank"
+              >github.com/yourusername</a
+            >
+          </p>
+          <p><strong>Location:</strong> Chennai, India</p>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="5"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <p class="footer-note">
+          I value meaningful connections and look forward to hearing from you!
+        </p>
+      </div>
+    </section>
+
+    <script src="./main/script.js"></script>
+  </body>
+</html>
